@@ -43,8 +43,8 @@ function requestToken(callback) {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      "email": "ygor@bmvix.com.br",
-      "password": "159753"
+      "email": "",
+      "password": ""
     })
   };
 
