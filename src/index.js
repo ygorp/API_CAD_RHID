@@ -8,8 +8,8 @@ var optionsToken = {
     'Content-Type': 'application/json'
   },
   body: JSON.stringify({
-    "email": "ygor@bmvix.com.br",
-    "password": "159753"
+    "email": "",
+    "password": ""
   })
 };
 
@@ -32,9 +32,9 @@ request(optionsToken, function (error, response) {
       "dateShiftsStartStr": "20220322",
       "newIdShift": 1,
       "idCompany": 1,
-      "name": "Bruno Reis de santana",
-      "pis": "2345678900",
-      "cpf": "13301226744",
+      "name": "",
+      "pis": "",
+      "cpf": "",
       "admissionDateStr": "2024-02-19T03:00:00.000Z",
       "numFolha": "999"
     })
